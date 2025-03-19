@@ -1,0 +1,33 @@
+body{
+    color: crimson;
+    background-color: lightgrey;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Arial, sans-serif;
+}
+
+table,tr,td,th{
+    border: 1px solid black;
+}
+
+#WPI {text-align: center;}
+
+.sqaurebullets{
+    list-style-type: square;
+}
+
+nav {
+    text-align: center;
+    background-color: lightgray;
+    font-family: Verdana,Helvetica, sans-serif;
+}
+
+nav ul, nav li{
+    display: inline-block;
+    list-style-type: none:
+}
+nav ul li a:hover{
+    color: lightgray;
+    background-color: crimson;
+}
