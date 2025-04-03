@@ -4,7 +4,7 @@ const path = require('path');
 const PORT = 3000;
 let filename = "";
 
-app.use(express.static(path.join(__dirname, 'public')));
+app.use("/public",express.static(path.join(__dirname, 'public')));
 
 app.get('*', (req, res) => {
     const options = {
